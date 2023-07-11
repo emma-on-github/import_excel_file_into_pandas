@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[41]:
-
-
 # import pandas package as pd
 import pandas as pd
 
@@ -12,4 +6,3 @@ df = pd.read_excel('https://assets.publishing.service.gov.uk/government/uploads/
 
 # filter Town/City field
 df[df.Town_City=="Oxford"]
-
